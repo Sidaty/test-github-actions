@@ -12,7 +12,7 @@ on:
 
 env:
   GITHUB_DOCKER_REGISTRY: docker.pkg.github.com
-  REPOSITORY_NAME: Sidaty
+  REPOSITORY_NAME: sidaty
   PROJECT_NAME: test-github-actions
   PACKAGE_NAME: test-github-actions
 
