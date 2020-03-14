@@ -47,7 +47,7 @@ jobs:
     
     - name: Docker build
       run: |
-        docker build -t $GITHUB_DOCKER_REGISTRY/$REPOSITORY_NAME/$PROJECT_NAME/PACKAGE_NAME .     
+        docker build -t $GITHUB_DOCKER_REGISTRY/$REPOSITORY_NAME/$PROJECT_NAME/$PACKAGE_NAME .     
     - name: Docker login
       run: |
         docker login docker.pkg.github.com -u ${{secrets.USER_NAME}} -p ${{secrets.GITHUB_TOKEN}}     
